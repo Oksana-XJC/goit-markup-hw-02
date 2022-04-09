@@ -1,0 +1,111 @@
+/* цвет основного текста #757575 */
+/* вторичный цвет текста #212121 */
+/* акцент #2196F3 */
+/* белый #FFFFFF */
+/* вторичный цвет фона #2F303A */
+/* дополнительный цвет фона #2F303A */
+
+
+
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --primary-white-color: #FFFFFF;
+}
+
+body {
+    background-color:var(--primary-bg-color);
+    color: var(--primary-text-color);
+    font-family: Roboto;
+}
+
+.list {
+    list-style: none;
+}
+
+.logo {
+    color:var(--title-text-color);
+}
+
+/* site nav */
+.site-nav .link {
+    color:var(--title-text-color);
+}
+
+.site-nav .link:hover, 
+.site-nav .link:focus {
+    color:var(--accent-color);
+}
+
+.site-nav .link.current {
+    color:var(--accent-color);
+}
+
+/* Контакты */
+.contacts {
+    color: var(--primary-text-color);
+}
+
+.contacts:hover {
+    color:var(--accent-color);
+}
+
+/* Герой */
+.hero-title {
+    color:var(--primary-white-color);
+}
+
+.button {
+    color:var(--primary-white-color);
+    background-color:var(--accent-color);
+}
+
+/* Секции */
+.section-title {
+    color:var(--title-text-color);
+}
+
+/* Преимущества */
+.features-title {
+    color:var(--title-text-color);
+}
+
+/* Команда */
+.employees-title {
+    color:var(--title-text-color);
+}
+
+/* Футер */
+.contacts-footer {
+    color: var(--primary-text-color);
+
+}
+
+.address-footer {
+    color:var(--primary-white-color);
+}
+
+.logo-footer {
+    color:var(--primary-white-color);
+}
+/* СТИЛИ ДЛЯ ПОРТФОЛИО */
+
+/* Кнопки фильтра */
+.button-filtr {
+    color:var(--title-text-color);
+    background-color:#F5F4FA;
+}
+
+.button-filtr:hover,
+.button-filtr:focus {
+    color:var(--primary-white-color);
+    background-color:var(--accent-color);
+}
+
+/* Примеры работ */
+.work-list .title {
+    color:var(--title-text-color);
+}
+
+
