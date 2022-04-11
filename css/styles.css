@@ -17,7 +17,8 @@
 body {
     background-color:var(--primary-bg-color);
     color: var(--primary-text-color);
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.03em;
 }
 
 .list {
@@ -25,12 +26,20 @@ body {
 }
 
 .logo {
-    color:var(--title-text-color);
+    color:var(--accent-color);
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
 }
 
 /* site nav */
 .site-nav .link {
     color:var(--title-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 
 .site-nav .link:hover, 
@@ -45,6 +54,10 @@ body {
 /* Контакты */
 .contacts {
     color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 
 .contacts:hover {
@@ -54,27 +67,66 @@ body {
 /* Герой */
 .hero-title {
     color:var(--primary-white-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
 }
 
 .button {
     color:var(--primary-white-color);
     background-color:var(--accent-color);
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
 }
 
 /* Секции */
 .section-title {
     color:var(--title-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
 }
 
 /* Преимущества */
 .features-title {
     color:var(--title-text-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+
+.features-description {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
 }
 
 /* Команда */
 .employees-title {
     color:var(--title-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
 }
+
+.employees-position (
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+)
 
 /* Футер */
 .contacts-footer {
@@ -86,15 +138,19 @@ body {
     color:var(--primary-white-color);
 }
 
-.logo-footer {
-    color:var(--primary-white-color);
+.address {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
 }
+
 /* СТИЛИ ДЛЯ ПОРТФОЛИО */
 
 /* Кнопки фильтра */
 .button-filtr {
     color:var(--title-text-color);
     background-color:#F5F4FA;
+    font-family: inherit;
 }
 
 .button-filtr:hover,
